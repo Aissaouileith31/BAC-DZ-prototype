@@ -1,5 +1,5 @@
 from flet import *
-from base64_string_icon_path import icons
+from base64_string_icon_path import *
 hovering = False
 
 def home(page):
@@ -245,3 +245,4 @@ def home(page):
         page.update()
     page.on_resize = page_resaize
     page_resaize(None)
+
